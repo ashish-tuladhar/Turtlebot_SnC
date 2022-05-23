@@ -18,7 +18,7 @@ This project integrates MATLAB and ROS environment to simulate TurtleBot Waffle 
     • Find the pixel coordinates (inlier Points) of the matched feature points
 
 ## Coordinate Transformation
-    • (Transform pixel coordinates to global coordinates)
+    • Transform pixel coordinates to robot base cooridante to global coordinates
 
 ## Finding Object Centre and Object Plane
     • Find object centre by taking the mean of all inlier matched feature points (in global coordinate frame)
