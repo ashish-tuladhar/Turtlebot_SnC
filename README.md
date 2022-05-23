@@ -40,7 +40,7 @@ TurtleBot Movement
 
 Contribution to the code:
 | Student ID | Student Name   |Percentage Contribution |
-|------------|---------------_|------------------------|
+|---|---|---|
 |13319470    |Ashish Tuladhar |35%|
 |13054705|Mina Jang|35%|
 |12912667|Jiahui Huang|30%|
