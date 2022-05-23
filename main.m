@@ -68,7 +68,7 @@ TFBase2Global = tmat1*tmat2;
 depthimg=getDepthImage(tbot);
 
 %[baseCoordinate, globalCoordinate]=Pixel2Global(inlierDistorted,depthimg, K, TFCamera2Base, TFBase2Global);
-%% LAHDKS
+%
 
 depthValues = nan(inlierDistorted.Count,1);
 %CP = nan(3,inlierDistorted.Count);
@@ -95,7 +95,7 @@ end
 
 globalCoordinate=globalCoordinate(:,all(~isnan(globalCoordinate)));
 
-%% Finding Object Location and Plane
+%% Finding Object Centre and Object Plane
 objectPointLocal=mean(baseCoordinate,2);
 objectPointGlobal=TFBase2Global*objectPointLocal
 
